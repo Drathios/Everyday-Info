@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* You can change this to #ffffff for a white background if preferred */
+}
+
+header {
+    background-color: #bb1919; /* BBC Red */
+    color: #ffffff; /* White text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#articles .article-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#articles .article-list .article {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #bb1919; /* BBC Red border */
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+#articles .article-list .article h3 a {
+    color: #bb1919; /* BBC Red for article titles */
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label,
+#contact form input,
+#contact form textarea,
+#contact form button {
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    background-color: #bb1919; /* BBC Red button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #9c1616; /* Darker red for hover effect */
+}
+
+footer {
+    background-color: #bb1919; /* BBC Red */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
