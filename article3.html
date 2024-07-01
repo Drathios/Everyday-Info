@@ -6,7 +6,6 @@
     <title>Cosmic and Marijuana: Exploring the Intersection of Cannabis and the Universe</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Inline CSS for quick adjustments */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -42,20 +41,32 @@
         }
         article {
             padding: 20px;
+            min-height: 80vh; /* Ensures footer is pushed down */
         }
         footer {
             background: #333;
             color: #fff;
             text-align: center;
             padding: 10px 0;
-            position: absolute;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
         @media (max-width: 600px) {
+            header {
+                background: #444; /* Normal color for mobile */
+                color: #fff;
+            }
             nav ul li {
                 display: block;
                 margin: 5px 0;
+            }
+            nav ul li a {
+                color: #fff; /* Normal color for mobile */
+            }
+            footer {
+                background: #444; /* Normal color for mobile */
+                color: #fff;
             }
         }
     </style>
